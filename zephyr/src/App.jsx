@@ -1,20 +1,13 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import React, {useEffect} from 'react';
+import AppRouter from "./_components/AppRouter.jsx";
+import './styles/style.css';
 
 function App() {
+
     return (
-        <Router>
-            <div>
-                <Switch>
-                    <Route path="/" exact component={HomePage} />
-                    <Route path="/home" exact component={HomePage} />
-                    <Route path="/forecast" component={ForecastPage} />
-                    <Route path="/air-quality" component={AirQualityPage} />
-                    <Route path="/map" component={MapPage} />
-                    <Route path="/moon-cycle" component={MoonCyclePage} />
-                </Switch>
-            </div>
-        </Router>
+        <div>
+            <AppRouter />
+        </div>
     );
 }
 

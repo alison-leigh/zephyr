@@ -1,43 +1,41 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import '../styles/nav.css';
 
 function Navigation(){
     return (
         <nav id="navBar">
             <span className="logo">
                 <Link to="/">
-                    <span>zephyr logo here</span>
+                    <img src="zephyr.svg" id="logoImg" />
                 </Link>
             </span>
-            <span className="menu">
-                <Link to="/forecast">
-                    <span>about</span>
+            <span className="navRight">
+            <span className="navItem">
+                <Link to="/daily">
+                    <span>Daily Forecast</span>
                 </Link>
             </span>
-            <span className="menu">
-                <Link to="/tech">
-                <span>tech</span>
+            <span className="navItem">
+                <Link to="/10day">
+                <span>10-day</span>
                 </Link>
             </span>
-            <span className="menu">
-                <Link to="/resources">
-                <span>resources</span>
+            <span className="navItem">
+                <Link to="/aq">
+                <span>Air Quality</span>
                 </Link>
             </span>
-            <span className="menu">
-                <Link to="/courses">
-                <span>courses</span>
+            <span className="navItem">
+                <Link to="/map">
+                <span>Map</span>
                 </Link>
             </span>
-            <span className="menu">
-                <Link to="/projects">
-                <span>projects</span>
+            <span className="navItem">
+                <Link to="/phases">
+                <span>Sun/Moon Phases</span>
                 </Link>
             </span>
-            <span className="menu">
-                <Link to="/contact">
-                <span>contact</span>
-                </Link>
             </span>
         </nav>
     );

@@ -3,6 +3,10 @@ import Navigation from "../_components/Navigation.jsx";
 
 function Map(){
     // javascript used in page goes up here
+    useEffect(() => {
+            document.title = "Zephyr | Map";
+        }
+    );
 
     return(
         <Navigation />

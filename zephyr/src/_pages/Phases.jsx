@@ -3,6 +3,10 @@ import Navigation from "../_components/Navigation.jsx";
 
 function Phases(){
     // javascript used in page goes up here
+    useEffect(() => {
+            document.title = "Zephyr | Sun & Moon Phases";
+        }
+    );
 
     return(
         <Navigation />
