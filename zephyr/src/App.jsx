@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react';
 import AppRouter from "./_components/AppRouter.jsx";
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './styles/style.css';
 
 function App() {
