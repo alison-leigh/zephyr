@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import '../styles/nav.css';
+// import 'bootstrap/dist/css/bootstrap.min.css'
 
 function Navigation(){
     return (
-        <nav id="navBar">
+        <nav id="navBar" className="container">
             <span className="logo">
                 <Link to="/">
                     <img src="zephyr.svg" id="logoImg" />
