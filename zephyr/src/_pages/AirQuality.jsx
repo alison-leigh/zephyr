@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Navigation from "../_components/Navigation.jsx";
+import Card_AirQuality from '../_components/Card_AirQuality.jsx';
+
 
 function AirQuality(){
     // javascript used in page goes up here
@@ -9,10 +11,12 @@ function AirQuality(){
         }
     );
 
-    return(
-        <Navigation />
-        // jsx page structure stuff goes here
-    );
-}
+  return (
+    <div className="contentContainer">
+      <Navigation />
+      <Card_AirQuality />
+      </div>
+  );
+};
 
 export default AirQuality;
