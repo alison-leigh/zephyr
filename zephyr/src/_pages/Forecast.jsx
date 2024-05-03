@@ -1,21 +1,31 @@
 import React, { useState, useEffect } from 'react';
 import Navigation from "../_components/Navigation.jsx";
 import Heading from '../_components/Heading.jsx';
+import ForecastList from '../_components/ForecastList.jsx';
+import ForecastLarge from '../_components/ForecastLarge.jsx';
+
+
+// import ForecastListItem from '../_components/ForecastListItem.jsx';
+
 
 function Forecast(){
-    // javascript used in page goes up here
+
+
     useEffect(() => {
-            document.title = "Zephyr | 10 Day Forecast";
-        }
-    );
+            document.title = "Zephyr | 10 Day Forecast";            
+        });
     return(
         <>
             <Navigation />
-            <div className='container bg-body-'>
+            <div className='container my-5 p-5 bg-body'>
                 <Heading title='10 Day Weather'/>
+                <ForecastLarge/>
+                    
+                  <ForecastList/>
             </div>
+            
         </>
-        // jsx page structure stuff goes here
+
         
     );
 }
