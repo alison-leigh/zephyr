@@ -16,11 +16,11 @@ function Navigation() {
       </div>
     {/* links */}
       <div className="d-flex ">
-        <span className="">
+        {/* <span className="">
           <Link className="text-decoration-none p-3 m-1 text-white fw-semibold" to="/daily">
             <span >Daily Forecast</span>
           </Link>
-        </span>
+        </span> */}
         <span className="">
           <Link className="text-decoration-none p-3 m-1 text-white fw-semibold" to="/weekly-forecast">
             <span>Weekly Forecast</span>
@@ -36,11 +36,11 @@ function Navigation() {
             <span>Map</span>
           </Link>
         </span>
-        <span className="">
+        {/* <span className="">
           <Link className="text-decoration-none p-3 m-1 text-white fw-semibold" to="/phases">
             <span>Sun/Moon Phases</span>
           </Link>
-        </span>
+        </span> */}
       </div>
     </nav>
   );
