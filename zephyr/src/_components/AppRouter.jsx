@@ -13,7 +13,7 @@ const AppRouter = () => {
             <Routes>
                 <Route path="/"             element={<Home />} />
                 <Route path="/daily"             element={<Home />} />
-                <Route path="/10day"         element={<Forecast />} />
+                <Route path="/weekly-forecast"         element={<Forecast />} />
                 <Route path="/aq"        element={<AirQuality />} />
                 <Route path="/map"        element={<Map />} />
                 <Route path="/phases"        element={<Phases />} />

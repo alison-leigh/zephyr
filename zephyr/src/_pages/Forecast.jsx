@@ -18,7 +18,7 @@ function Forecast(){
         <>
             <Navigation />
             <div className='container my-5 p-5 bg-body'>
-                <Heading title='10 Day Weather'/>
+                <Heading title='Weekly Forecast'/>
                 <ForecastLarge/>
                     
                   <ForecastList/>
