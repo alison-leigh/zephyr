@@ -13,7 +13,7 @@ function Map() {
             <div className="container-wrapper">
                 <div className="container">
                     <div className="frame">
-                        <Navbar className="navbar-instance" icon={<Mark className="mark-instance" />} />
+                        <Navigation className="navbar-instance" icon={<Mark className="mark-instance" />} />
                         <div className="div">
                             <div className="text-wrapper-2">Regional Map</div>
                             <div className="frame-wrapper">
