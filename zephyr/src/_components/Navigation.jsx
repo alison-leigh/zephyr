@@ -22,7 +22,7 @@ function Navigation() {
           </Link>
         </span>
         <span className="">
-          <Link className="text-decoration-none p-3 m-1 text-white fw-semibold" to="/forecast">
+          <Link className="text-decoration-none p-3 m-1 text-white fw-semibold" to="/weekly-forecast">
             <span>Weekly Forecast</span>
           </Link>
         </span>
