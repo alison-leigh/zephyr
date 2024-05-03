@@ -12,7 +12,7 @@ function AirQuality() {
   return (
     <div className="">
       <Navigation />
-      <div className="container my-5 p-5 bg-body">
+      <div className="container my-1 p-5 bg-body rounded">
 
       <Card_AirQuality />
       </div>

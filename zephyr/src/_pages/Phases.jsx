@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Navigation from "../_components/Navigation.jsx";
+import MoonPhase from "../_components/MoonPhase.jsx";
 
 function Phases(){
     // javascript used in page goes up here
@@ -9,8 +10,10 @@ function Phases(){
     );
 
     return(
-        <Navigation />
-        // jsx page structure stuff goes here
+        <>
+            <Navigation />
+            <MoonPhase />
+        </>
     );
 }
 

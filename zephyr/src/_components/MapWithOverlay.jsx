@@ -5,7 +5,7 @@ import MapOverlay from "./MapOverlay.jsx";
 const MapWithOverlay = ()=>{
 
     return(
-        <div className="container-fluid d-flex" style={{ height: "80svh" }}>
+        <div className="container d-flex" style={{ height: "80svh" }}>
         <div className="flex-grow-1">
           <GoogleMap />
           <MapOverlay/>

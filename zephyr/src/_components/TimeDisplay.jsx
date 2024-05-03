@@ -14,7 +14,7 @@ const TimeDisplay = () => {
  }, []);
 
  return (
-    <h2 className='text-secondary fs-3 ps-1'>{time.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true })} </h2>
+    <h2 className='fs-3 ps-1'>{time.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true })} </h2>
  );
 };
 

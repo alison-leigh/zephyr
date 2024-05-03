@@ -15,7 +15,7 @@ const Heading = ({ title }) => {
       <UserLocation/>
       
       </div>
-      <TimeDisplay/>
+      <span className="text-secondary"><TimeDisplay/></span>
     </div>
   );
 };

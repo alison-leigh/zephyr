@@ -17,10 +17,10 @@ function Forecast(){
     return(
         <>
             <Navigation />
-            <div className='container my-5 p-5 bg-body'>
+            <div className='container my-1 p-5 bg-body rounded'>
                 <Heading title='Weekly Forecast'/>
                 <ForecastLarge/>
-                    
+
                   <ForecastList/>
             </div>
             

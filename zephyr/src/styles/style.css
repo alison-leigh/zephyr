@@ -14,3 +14,60 @@ background-color: rgba(245, 243, 253, .75);
   padding: 12px;
   border-radius: 16px;
 }
+
+.homeLocationBar{
+  background-color: #7e85bc;
+  height: 55px;
+  color: white;
+  font-size: 30px;
+  padding: 8px;
+}
+
+/* DailyForecastTop.jsx */
+.bigWeather{
+  max-width: 200px;
+}
+
+.bigTemp{
+  font-size: 5rem;
+  color: #454494;
+}
+
+.bigWeatherDesc{
+  font-size: 2rem;
+  color: #454494;
+}
+
+.bigHiLo{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  font-size: 1.8rem;
+  color: #454494;
+  font-weight: bold;
+}
+
+/* DailyForecastBottom.jsx */
+.dailyForecastList{
+display: flex;
+  flex-flow: column nowrap;
+  padding: 2rem;
+}
+
+.dailyForecastGridItem{
+  padding: 1rem 0;
+  border-bottom: 2px solid #ccc;
+  font-size: 1.5rem;
+}
+
+.smallWeather{
+  width: 50px;
+}
+
+/*.dailyForecastTime{*/
+/*  font-size: 1.5rem;*/
+/*}*/
+
+/*.dailyForecastTemp{*/
+/*  font-size: 1.5rem;*/
+/*}*/

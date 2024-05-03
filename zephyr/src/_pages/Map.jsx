@@ -11,8 +11,8 @@ function Map() {
     <div className="">
       <Navigation className="navbar-instance" />
 
-      <div className="bg-body">
-        <h1 className="container mt-5">Map</h1>
+      <div className="bg-body container rounded pb-4">
+        <h1 className="container mt-1">Regional Map</h1>
         <MapWithOverlay/>
       </div>
     </div>
